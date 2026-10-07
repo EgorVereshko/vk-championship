@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../../assets/logo.png";
 import "./Header.scss";
 
 function Header() {
@@ -12,7 +13,7 @@ function Header() {
     <header className="header">
       <div className="container header__inner">
         <a href="#" className="logo">
-          <img src="../src/assets/logo.png" alt="Логотип VK" />
+          <img src={logo} alt="Логотип VK" />
         </a>
 
         <nav
